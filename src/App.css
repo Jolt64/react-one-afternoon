@@ -1,33 +1,67 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button{
+  background: none;
+  border: none;
+  margin: 2vh;
   color: white;
+  font-weight: 800;
+  font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.homeBar{
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(35, 147, 252);
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 50px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeBarHome{
+  font-weight: 900;
 }
+
+#cardName{
+  text-decoration: underline;
+  text-decoration-color: rgb(5, 153, 202);
+}
+
+.dashboardRaper{
+  background-color: black;
+  padding: 10vh;
+  
+}
+
+.userCards{
+  padding: 10vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.userCardButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#infoTags{
+  font-weight: 700;
+}
+
+
